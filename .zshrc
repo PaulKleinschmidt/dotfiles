@@ -128,9 +128,13 @@ alias push="git push origin HEAD"
 
 # Full Beaker Repos
 alias ct="cd /Users/paulkleinschmidt/fullbeaker/click-table"
+alias startct="cd /Users/paulkleinschmidt/fullbeaker/click-table && npm start"
 alias fd="cd /Users/paulkleinschmidt/fullbeaker/fullbeaker-dashboard"
+alias startfd="cd /Users/paulkleinschmidt/fullbeaker/fullbeaker-dashboard && npm start"
 alias da="/Users/paulkleinschmidt/fullbeaker/dashboard-api"
+alias startda="/Users/paulkleinschmidt/fullbeaker/dashboard-api && npm start"
 alias fg="/Users/paulkleinschmidt/fullbeaker/form-generator"
+alias startfg="/Users/paulkleinschmidt/fullbeaker/form-generator && npm start"
 
 # FB Docker
 alias fbd="/Users/paulkleinschmidt/fullbeaker/fb-docker"
