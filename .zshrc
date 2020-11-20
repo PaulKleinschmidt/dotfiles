@@ -141,3 +141,7 @@ alias mmi="/Users/paulkleinschmidt/fullbeaker/fb-docker/workspace/wp-theme-insid
 alias mvl="/Users/paulkleinschmidt/fullbeaker/fb-docker/workspace/wp-theme-militaryva"
 alias norg="/Users/paulkleinschmidt/fullbeaker/nurse.org"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# tabtab source for packages
+# uninstall by removing these lines
+[[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
