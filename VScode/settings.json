@@ -2,22 +2,28 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Super One Dark",
     "files.insertFinalNewline": true,
-    "ruby.rubocop.executePath": "/Users/paulkleinschmidt/.rvm/gems/ruby-2.3.7/bin/",
-    "ruby.rubocop.configFilePath": "/Users/paulkleinschmidt/coding/projects/censinet/server/.rubocop.yml",
-    "ruby.lint": {
-        "ruby": true,
-        "rubocop": true
-    },
-    "ruby.intellisense": "rubyLocate",
     "files.trimTrailingWhitespace": true,
-    "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
-        "statusBar.background" : "#1A1A1A",
-        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.background": "#1A1A1A",
+        "statusBar.noFolderBackground": "#212121",
         "statusBar.debuggingBackground": "#263238"
     },
     "editor.renderIndentGuides": true,
     "editor.highlightActiveIndentGuide": false,
     "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
-    "bracket-pair-colorizer-2.showVerticalScopeLine": false
+    "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.largeFileOptimizations": false,
+    "window.zoomLevel": -1,
 }
