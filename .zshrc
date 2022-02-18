@@ -125,7 +125,8 @@ fi
 alias zsh="code ~/.zshrc"
 
 # Git
-alias gcmwip="git commit -m 'wip'"
+alias wip="git commit -m 'wip'"
+alias cleanup="git commit -m 'cleanup'"
 alias push="git push origin HEAD"
 
 # Full Beaker Repos
@@ -133,16 +134,18 @@ alias ct="cd /Users/paulkleinschmidt/fullbeaker/click-table"
 alias startct="cd /Users/paulkleinschmidt/fullbeaker/click-table && npm start"
 alias fd="cd /Users/paulkleinschmidt/fullbeaker/fullbeaker-dashboard"
 alias startfd="cd /Users/paulkleinschmidt/fullbeaker/fullbeaker-dashboard && npm start"
-alias da="/Users/paulkleinschmidt/fullbeaker/dashboard-api"
+alias da="/Users/paulkleinschmidt/fullbeaker/product-api"
 alias startda="/Users/paulkleinschmidt/fullbeaker/dashboard-api && npm start"
 alias fg="/Users/paulkleinschmidt/fullbeaker/form-generator"
 alias startfg="/Users/paulkleinschmidt/fullbeaker/form-generator && npm start"
+alias tmr="/Users/paulkleinschmidt/fullbeaker/tmr-nextjs"
+alias tn="/Users/paulkleinschmidt/fullbeaker/travelnursing"
 
 # FB Docker
 alias fbd="/Users/paulkleinschmidt/fullbeaker/fb-docker"
 
 # Wordpress sites
-alias tmr="/Users/paulkleinschmidt/fullbeaker/fb-docker/workspace/community_updated"
+alias tmrwp="/Users/paulkleinschmidt/fullbeaker/fb-docker/workspace/community_updated"
 alias mmi="/Users/paulkleinschmidt/fullbeaker/fb-docker/workspace/wp-theme-insider"
 alias mvl="/Users/paulkleinschmidt/fullbeaker/fb-docker/workspace/wp-theme-militaryva"
 alias norg="/Users/paulkleinschmidt/fullbeaker/nurse.org"
